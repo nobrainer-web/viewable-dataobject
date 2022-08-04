@@ -351,7 +351,7 @@ class ViewableDataObject extends DataExtension
     {
         if (!$this->owner->URLSegment) {
             $siteTree = singleton(SiteTree::class);
-            $this->owner->URLSegment = $siteTree->generateURLSegment($this->owner->Title);
+            $this->owner->URLSegment = $siteTree->generateURLSegment($this->owner->Title . '-' . $this->owner->ID);
         }
 
         // Ensure that this object has a non-conflicting URLSegment value.
