@@ -33,9 +33,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
-        "installer-name": "viewable-dataobject",
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
+        "installer-name": "viewable-dataobject"
     }
 }
