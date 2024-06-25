@@ -1,5 +1,5 @@
 {
-    "name": "dynamic/viewable-dataobject",
+    "name": "nobrainer-web/viewable-dataobject",
     "description": "DataExtension that easily allows a DataObject to be viewed like a Page",
     "authors": [
         {
