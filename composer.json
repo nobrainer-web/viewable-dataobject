@@ -29,10 +29,5 @@
     },
     "config": {
         "process-timeout": 600
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra": {
-        "installer-name": "viewable-dataobject"
     }
 }
